@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "ApexPulse-AI",
+    "slug": "ApexPulse-AI",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.apex.pulse.ai"
+    }
+  }
+}
