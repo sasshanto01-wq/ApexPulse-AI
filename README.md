@@ -1,14 +1,52 @@
 # ApexPulse AI
 
-Expo / React Native starter for AI-assisted trading analysis.
+A mobile-first Expo / React Native starter for AI-assisted market analysis across Forex, cryptocurrency, stocks, and indices.
 
-## Project status
-- Market data: SAMPLE / simulated only.
-- AI provider: GPT 5.6 Terra is the intended provider; no backend endpoint or credentials are configured yet.
-- Authentication: local demo UI only.
-- Trading: no broker integration or auto-trading.
+## Features
 
-## Source upload
-The repository has been created, but the attached ZIP archive has not yet been added. Upload `ApexPulseAI-Expo-Project.zip` using **Add file → Upload files**, or add the extracted project files to the repository root.
+- Dark, orange-accented mobile interface.
+- Dashboard, Watchlist, Analyze, History, and Profile tabs.
+- Instrument selection and sample candlestick chart.
+- Screenshot selection from the device photo library.
+- Demo signal cards with directional bias, confidence, entry zone, stop loss, take profits, support, and resistance.
+- Onboarding for trading experience, preferred markets, and risk preference.
 
-Do not treat sample prices or demo signals as live market information.
+## Tech stack
+
+- Expo SDK 54
+- React 19
+- React Native 0.81
+- TypeScript
+- expo-image-picker
+- react-native-svg
+- react-native-safe-area-context
+
+## Run locally
+
+1. Install Node.js (LTS).
+2. Install dependencies: `npm install`
+3. Start Expo: `npx expo start`
+4. Scan the QR code with Expo Go, or press `a` / `i` to launch an available simulator.
+
+## Current implementation status
+
+| Area | Status |
+| --- | --- |
+| Mobile UI and navigation | Implemented |
+| Market data | SAMPLE / simulated only |
+| Chart screenshot selection | Implemented |
+| AI analysis | Demo response only; provider not connected |
+| Authentication | Local UI demonstration only |
+| Broker connection / order execution | Not implemented |
+
+**Important:** Displayed market prices and signals are sample values. The app does not currently connect to a live market-data provider, does not perform a real GPT 5.6 Terra inference, and does not execute trades.
+
+## GPT 5.6 Terra integration
+
+The intended AI provider is GPT 5.6 Terra. The provider endpoint, authentication scheme, model identifier, and image-input format must be verified against the provider's actual documentation before integration.
+
+Keep provider credentials on a server. Do not place API keys in the Expo application or commit real secrets. See [server integration contract](server/README.md) and use `.env.example` only as a template.
+
+## Risk notice
+
+Predictions are probabilistic analysis, not guaranteed outcomes or financial advice. Sample values are illustrative only. Always independently verify market information and risk before making trading decisions.
