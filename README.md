@@ -8,4 +8,7 @@ Expo / React Native starter for AI-assisted trading analysis.
 - Authentication: local demo UI only.
 - Trading: no broker integration or auto-trading.
 
-See the uploaded `ApexPulseAI-Expo-Project.zip` archive for the source package. Do not treat sample prices or demo signals as live market information.
+## Source upload
+The repository has been created, but the attached ZIP archive has not yet been added. Upload `ApexPulseAI-Expo-Project.zip` using **Add file → Upload files**, or add the extracted project files to the repository root.
+
+Do not treat sample prices or demo signals as live market information.
