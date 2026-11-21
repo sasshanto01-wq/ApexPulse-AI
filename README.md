@@ -2,6 +2,12 @@
 
 A mobile-first Expo / React Native starter for AI-assisted market analysis across Forex, cryptocurrency, stocks, and indices.
 
+## Source package
+
+The complete original Expo source archive is committed at [source/ApexPulseAI-Expo-Project.zip](source/ApexPulseAI-Expo-Project.zip). It contains the original `App.tsx`, app configuration, package manifest, environment template, and project documentation.
+
+To restore the original app source, download and extract that ZIP. The archive expands into an `ApexPulseAI/` directory.
+
 ## Features
 
 - Dark, orange-accented mobile interface.
@@ -23,10 +29,13 @@ A mobile-first Expo / React Native starter for AI-assisted market analysis acros
 
 ## Run locally
 
+After extracting the source archive:
+
 1. Install Node.js (LTS).
-2. Install dependencies: `npm install`
-3. Start Expo: `npx expo start`
-4. Scan the QR code with Expo Go, or press `a` / `i` to launch an available simulator.
+2. Change into the extracted `ApexPulseAI` directory.
+3. Install dependencies: `npm install`
+4. Start Expo: `npx expo start`
+5. Scan the QR code with Expo Go, or press `a` / `i` to launch an available simulator.
 
 ## Current implementation status
 
